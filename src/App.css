@@ -1,0 +1,16 @@
+.grid-layout {
+  width: 100%;
+  display: grid;
+  grid-template-areas: 
+  "header"
+  "nav body ."
+  "nav body .";
+  grid-template-rows: 110px 1fr 1fr;
+}
+
+.logo-header {
+  background-color: #282c34;
+  display: flex;
+  grid-area: "header";
+}
+
