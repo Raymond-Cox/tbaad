@@ -1,0 +1,7 @@
+.navbarContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  border-right: 1px solid rgba(0, 0, 0, .9);
+} 

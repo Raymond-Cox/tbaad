@@ -1,16 +1,28 @@
-.grid-layout {
+
+.container-layout {
+  display: flex;
+  flex-direction: column;
   width: 100%;
-  display: grid;
-  grid-template-areas: 
-  "header"
-  "nav body ."
-  "nav body .";
-  grid-template-rows: 110px 1fr 1fr;
+  height: 100%;
 }
 
 .logo-header {
+  min-height: 110px;
   background-color: #282c34;
+}
+.content-row {
   display: flex;
-  grid-area: "header";
+  width: 100%;
+}
+.vertical-nav {
+  display: flex;
+  width: 150px;
+  height: calc(100vh - 110px);
+  background-color: #282c34;
+}
+.body-content {
+  display: flex;
+  width: calc(100vw - 150px);
+  background-color: red;
 }
 
