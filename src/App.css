@@ -23,6 +23,6 @@
 .body-content {
   display: flex;
   width: calc(100vw - 150px);
-  background-color: red;
+  background-color: lightgrey;
 }
 
